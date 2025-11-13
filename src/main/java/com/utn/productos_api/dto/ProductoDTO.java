@@ -2,6 +2,8 @@ package com.utn.productos_api.dto;
 
 import com.utn.productos_api.model.Categoria;
 import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.Digits;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
@@ -22,7 +24,7 @@ public class ProductoDTO {
   Double precio;
 
   @NotNull(message = "El stock no puede ser nulo")
-  @Size(min = 0, message = "El stock no puede ser inferior a 0")
+  @Min(value = 1, message = "La cantidad mínima en stock debe ser 1 o superior")
   Integer stock;
 
   @NotNull(message = "La categoria no puede ser nula")
