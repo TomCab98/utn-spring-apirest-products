@@ -365,10 +365,15 @@ CREATE TABLE producto (
 
 ---
 
-## 👤 Autor
+## 👤 Autores
 
-**[Tu Nombre Completo]**  
-**Legajo:** [Tu Legajo]  
+**Tomas Cabanillas - 46317**  
+**Maria Jose Lucero - 46272**  
+**Santiago Wengorra - 50205**  
+**Jose Sandoval - 43782**  
+
 **Universidad:** Universidad Tecnológica Nacional (UTN)  
-**Materia:** Programación III  
+**Materia:** Desarrollo de software  
 **Año:** 2025
+
+---
